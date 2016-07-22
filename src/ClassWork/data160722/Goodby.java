@@ -6,7 +6,7 @@ package ClassWork.data160722;
 public class Goodby {
     public static void main(String[] args) {
         String g = "Goodby";
-        String g = "Goodby";
+        String q = "Goodby";
         System.out.println(g);
     }
 }
