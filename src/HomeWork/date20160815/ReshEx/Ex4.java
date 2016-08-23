@@ -13,10 +13,10 @@ public class Ex4 {
 
         PrintWriter pw = new PrintWriter(System.out, true);
         File original = new File("original.txt");
-//            if (original.exists()) {
-//                original.createNewFile("original1.txt");
+//        if (original.exists()) {
+//            original.createNewFile("original1.txt");
 //            }
-        pw.println(new File(original.getAbsolutePath()));
-        File copy = new File("copy.txt");
-    }
+            pw.println(new File(original.getAbsolutePath()));
+            File copy = new File("copy.txt");
+        }
     }
